@@ -1,3 +1,8 @@
+
+# Name: Muiz Ajiboye
+# Student ID: 18436684
+# Date: 20/01/2024
+
 # Create a list to store the number of customers each day
 customer_count = []
 
@@ -5,7 +10,7 @@ customer_count = []
 for day in range(1, 8):  # Loop for 7 days
     try:
         # Get user input for the number of customers and convert it to an integer
-        customers = int(input("Enter the number of customers for day : "))
+        customers = int(input(f"Enter the number of customers for day {day}: "))
 
         # Append the number of customers to the list
         customer_count.append(customers)
